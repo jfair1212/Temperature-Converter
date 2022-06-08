@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Temperature Converter!</h1>
+    <div id="prompt">
+    <h2>Which conversion would you like to make?</h2>
+        <div id="convChoice">
+            <button id="f2c">Fahrenheit to Celsius</button>
+            <button id="c2f">Celsius to Fahrenheit</button>
+        </div>
+    </div>    
+        <div id="main" hidden>
+            <form onsubmit="return false" id="tempForm">
+                <label id="conversionPrompt" for="initialTemp">Enter temperature in degrees Fahrenheit:</label><br>
+                <input type="text" id="initialTemp" name="tempf1"><br>
+                <input type="submit" name="Submit" id="submit">
+            </form>
+
+            <p id="finalTemp"></p>
+        </div>
+
+        <button id="newConversion" hidden> Do Another Temperature Conversion</button>
+        <script src="script.js"></script>
+</body>
+</html>

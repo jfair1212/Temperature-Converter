@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+
+
+
+/* Styles for temp conversion elements */
+#tempForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conversionPrompt {
+    font-size: large;
+    font-weight: bold;
+}
+
+#submit {
+    font-size: medium;
+}
+
+
+
+
+/* Final temperature conversion message */
+#finalTemp {
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#newConversion{
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+/* Styles for conversion choice buttons */
+
+
+
+#convChoice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+div > button {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+
+}
+
